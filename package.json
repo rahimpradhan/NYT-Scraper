@@ -1,0 +1,25 @@
+{
+  "name": "nytscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahimpradhan/NYT-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahimpradhan/NYT-Scraper/issues"
+  },
+  "homepage": "https://github.com/rahimpradhan/NYT-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "mongoose": "^4.13.7",
+    "request": "^2.83.0"
+  }
+}
