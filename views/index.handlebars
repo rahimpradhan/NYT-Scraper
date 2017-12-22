@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <h1>Lets scrap some articles from NYT</h1>
+    </div>
+    <div class="row">
+
+      <div class="col-md-4">
+
+        <a href="/scrape">
+          <button id="buttons" type="button" class="btn btn-success">Scrape Articles</button>
+        </a>
+
+
+      </div>
+      
+      
+      
+      <div class="col-md-4">
+        <a href="/delete">
+          <button id="buttons" type="button" class="btn btn-danger">Delete Articles</button></a>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 articles">
+
+        {{#each doc}}
+
+        <p id="articles"><a href="{{this.link}}"><h2>{{this.title}}</h2></a></p>
+        <p>{{this.title}}</p>
+
+          <h4 id="article-content">{{this.summary}}</h4></p>
+      
+
+        
+        <hr> {{/each}}
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
